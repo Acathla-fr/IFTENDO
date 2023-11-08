@@ -48,7 +48,13 @@
           "min_clearance": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -105,9 +111,9 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_clearance": 0.19999999999999998,
+        "min_connection": 0.19999999999999998,
+        "min_copper_edge_clearance": 0.5,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.19999999999999998,
@@ -117,7 +123,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.0,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.09999999999999999,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
@@ -165,8 +171,18 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
-      "via_dimensions": [],
+      "track_widths": [
+        0.0,
+        0.25,
+        0.4,
+        0.6
+      ],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "layer_presets": [],
@@ -474,35 +490,35 @@
     ],
     [
       "09a36154-13ce-436a-b981-d049d6c7ecf1",
-      "Button1"
+      "ButtonLeft"
     ],
     [
       "0420adf3-9b3f-443b-a767-19a2287b4ec2",
-      "Button2"
+      "ButtonRight"
     ],
     [
       "650008ec-5418-4038-8740-15f0e9909ec2",
-      "Button3"
+      "ButtonUp"
     ],
     [
       "059f1607-014c-423f-bd66-c68eba417c03",
-      "Button4"
+      "ButtonDown"
     ],
     [
       "2d97d838-2999-4f2f-8ba7-5c1eba1aaa3e",
-      "Button5"
+      "ButtonB"
     ],
     [
       "c905116d-ded3-4fb8-bf0d-3dbf4ce130a5",
-      "Button6"
+      "ButtonA"
     ],
     [
       "25414854-662a-40a0-abc7-95bf4226cf3b",
-      "Button7"
+      "ButtonSelect"
     ],
     [
       "22503be0-ecc3-49be-b39e-625daaa47871",
-      "Button8"
+      "ButtonStart"
     ]
   ],
   "text_variables": {}
