@@ -1,5 +1,5 @@
 # IFTENDO
-Extention to the IFT-C3 board with OLED screen (128x64) and buttons
+Extention to the IFT-C3 board with OLED screen (128x64), I2C address : 0x3C, and buttons
 
 SDA: GPIO5<br>
 SCL: GPIO6
